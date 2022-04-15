@@ -28,23 +28,21 @@ This project is docker composable, below are the steps to build and run it insid
 - Once extracted, use your favorite code editor to open the project. You should see location-client, Nginx, server folders
 
 - On your terminal change directory to point to the location-client directory and execute this command: `docker build -f Dockerfile -t location-client .`
-The above command will create an image called client on Docker. To test it, we will create a container that will help us run this image.
-
-Here is the command to do so:
-
+The above command will create an image called client on Docker. 
+To test it, we will create a container that will help us run this image. Here is the command to do so:
 `docker run -it -p 4001:3000 client`
 
 -To create the server image run:
 
 `docker build -f Dockerfile -t server .`
-To create a container to execute the server image, run:
+-To create a container to execute the server image, run:
 
 `docker run -it -p 4002:3001 server`
 
 -Run and test the fully containerized application instance
 Everything is now ready.
 
-On your project root directory, execute the following command to run the docker-compose.yml file.
+ -On your project root directory, execute the following command to run the docker-compose.yml file.
 
 `docker-compose up --build`
 This will build and run all the containers in Docker.
