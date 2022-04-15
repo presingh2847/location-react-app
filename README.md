@@ -50,3 +50,9 @@ On your project root directory, execute the following command to run the docker-
 This will build and run all the containers in Docker.
 
 Now, `you can access the app using route http://localhost:3050/`.
+
+### Testing
+On your terminal change directory to point to the location-client directory and execute these commands: 
+
+- npm install 
+- npm test
