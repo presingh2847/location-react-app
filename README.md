@@ -24,8 +24,10 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 This project is docker composable, below are the steps to build and run it inside docker container
 - Download the App contents. You can either pull the entire project or download it as a zip and extract the app folder out to get started with.
--Once extracted, use your favorite code editor to open the project. You should see location-client, Nginx, server folders
--On your terminal change directory to point to the location-client directory and execute this command: `docker build -f Dockerfile -t location-client .`
+
+- Once extracted, use your favorite code editor to open the project. You should see location-client, Nginx, server folders
+
+- On your terminal change directory to point to the location-client directory and execute this command: `docker build -f Dockerfile -t location-client .`
 The above command will create an image called client on Docker. To test it, we will create a container that will help us run this image.
 
 Here is the command to do so:
