@@ -1,0 +1,27 @@
+.location {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  &__Container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__form {
+    display: flex;
+    align-items: baseline;
+    &__error {
+      margin: 0 0 0 5em;
+      color: red;
+    }
+  }
+  &__button {
+    color: #fff;
+    background-color: #008cba;
+    border: 2px solid #008cba;
+    border-radius: 4px;
+    padding: 6px 20px;
+  }
+}

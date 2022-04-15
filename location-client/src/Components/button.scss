@@ -1,0 +1,35 @@
+.btn {
+  color: #fff;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  &-info {
+    background-color: #008cba;
+    border: 2px solid #008cba;
+  }
+  &-danger {
+    background-color: red;
+    border: 2px solid red;
+  }
+  &-success {
+    background-color: green;
+    border: 2px solid green;
+  }
+  &-sm {
+    min-width: 1.5em;
+    min-height: 2em;
+  }
+  &-md {
+    min-width: 2em;
+    min-height: 2.5em;
+  }
+  &-lg {
+    min-width: 2.5em;
+    min-height: 3em;
+  }
+}
+
+.btn:hover {
+  opacity: 0.8;
+}

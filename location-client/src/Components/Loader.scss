@@ -1,0 +1,17 @@
+.spinner {
+  animation: spin infinite 5s linear;
+  transform: scale(5);
+  margin: 5vh;
+}
+.header {
+  margin: 0;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
