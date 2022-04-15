@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Location finder app
 
 This is React full-stack application with Node.js as the back-end service, maxmind db file as the application database, and NginX for reverse proxy. We can dockerize this full-stack application, and deploy it as a Docker image.
 
